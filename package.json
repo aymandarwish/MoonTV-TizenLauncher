@@ -2,7 +2,8 @@
   "name": "moon-tv-launcher",
   "version": "0.1.0",
   "description": "Moon TV modern launcher for TizenBrew",
+  "packageType": "app",
+  "appName": "Moon TV",
   "appPath": "app/index.html",
-  "keys": ["EXIT", "RETURN", "LEFT", "RIGHT", "UP", "DOWN", "ENTER"],
-  "settings": {}
+  "keys": ["LEFT", "RIGHT", "UP", "DOWN", "ENTER", "RETURN", "EXIT"]
 }
