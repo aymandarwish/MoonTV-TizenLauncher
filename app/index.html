@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Moon TV</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;font-family:Arial,Helvetica,sans-serif;background:#080b12;color:#fff}body{background:radial-gradient(circle at 72% 18%,#27345a 0,#10172b 28%,#080b12 68%)}
+.shell{width:100%;height:100%;padding:42px 58px 34px;display:flex;flex-direction:column}.top{display:flex;align-items:center;justify-content:space-between}.brand{font-size:34px;font-weight:800;letter-spacing:2px}.brand span{opacity:.55;font-weight:400}.clock{font-size:24px;opacity:.8}.hero{flex:1;display:flex;flex-direction:column;justify-content:center;max-width:900px}.eyebrow{font-size:18px;letter-spacing:3px;text-transform:uppercase;opacity:.55;margin-bottom:12px}.title{font-size:64px;line-height:1;margin:0 0 16px;font-weight:800}.subtitle{font-size:22px;opacity:.65;max-width:680px}.section{margin-top:auto}.section-title{font-size:18px;text-transform:uppercase;letter-spacing:2px;opacity:.5;margin-bottom:14px}.apps{display:flex;gap:18px}.card{width:190px;height:112px;border-radius:18px;padding:18px;display:flex;flex-direction:column;justify-content:flex-end;background:rgba(255,255,255,.09);border:2px solid transparent;box-shadow:0 10px 30px rgba(0,0,0,.25);transition:.12s}.card.focus{border-color:#fff;background:rgba(255,255,255,.18);transform:scale(1.04)}.icon{font-size:32px;margin-bottom:8px}.name{font-size:18px;font-weight:700}.hint{position:absolute;right:58px;bottom:40px;font-size:15px;opacity:.45}
+</style>
+</head>
+<body>
+<div class="shell">
+  <header class="top"><div class="brand">MOON <span>TV</span></div><div id="clock" class="clock">--:--</div></header>
+  <main class="hero"><div class="eyebrow">Smart TV Launcher</div><h1 class="title">Your TV. Your way.</h1><div class="subtitle">A modern home screen for your Samsung TV, built to run on Tizen 4 with TizenBrew.</div></main>
+  <section class="section"><div class="section-title">Apps</div><div id="apps" class="apps">
+    <div class="card focus" data-app="TizenTube"><div class="icon">▶</div><div class="name">TizenTube</div></div>
+    <div class="card" data-app="Nuvio TV"><div class="icon">◉</div><div class="name">Nuvio TV</div></div>
+    <div class="card" data-app="Moonfin"><div class="icon">◆</div><div class="name">Moonfin</div></div>
+    <div class="card" data-app="IPTV"><div class="icon">▣</div><div class="name">IPTV</div></div>
+  </div></section>
+  <div class="hint">◀ ▶ Navigate &nbsp; OK Open &nbsp; RETURN Back &nbsp; EXIT Close</div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
